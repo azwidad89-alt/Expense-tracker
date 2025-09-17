@@ -1,0 +1,19 @@
+expense-tracker/
+│── app.json
+│── package.json
+│── tsconfig.json
+│── App.tsx
+│
+├── hooks/
+│   └── expense-store.ts        # Gestion de l’état (Zustand/AsyncStorage)
+│
+├── components/
+│   ├── BarChart.tsx            # Graphique en barres
+│   ├── CategoryCard.tsx        # Carte de catégorie avec budget
+│   ├── AddExpenseModal.tsx     # Fenêtre d’ajout de dépense
+│
+└── app/
+    └── tabs/
+        ├── dashboard.tsx       # Vue globale : budget mensuel + graphiques
+        ├── settings.tsx        # Paramètres généraux
+        └── categories.tsx      # Gestion des catégories personnalisées
